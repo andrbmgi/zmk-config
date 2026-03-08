@@ -43,7 +43,12 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = < ... >; // List of keys on the right side of the keyboard
+            hold-trigger-key-positions = <   
+              &kp J    &kp L        &kp U        &kp Y       &kp SEMICOLON
+              &kp M    &kp N        &kp E        &kp I       &kp O
+              &kp K    &kp H        &kp COMMA    &kp DOT     &kp SLASH           &kp APOSTROPHE
+              &kp MINUS 
+            >; // List of keys on the right side of the keyboard
             hold-trigger-on-release;
         };
         hmr: home_row_mod_right {
@@ -54,7 +59,11 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = < ... >; // List of keys on the left side of the keyboard
+            hold-trigger-key-positions = <  
+              &kp Q       &kp W       &kp F          &kp P         &kp B
+              &hm LGUI A  &hm LALT R  &hm LCTRL S    &hm LSHIFT T  &kp G
+&lt 3 ESCAPE  &kp Z       &kp X       &kp C          &kp D         &kp V
+            >; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
     };
